@@ -11,9 +11,10 @@
 
 </span>
 
-<h3 align="center"> 🏞 Your Next Adventure Awaits 🏞 </h3>
+<h3 align="center"> 
+🏞 Your Next Adventure Awaits 🏞 </h3>
 
-# Task Description:
+# TASk Description:
 
 Create a web application for a company that provides car rental services in Ukraine. The application consists of three pages:
 
