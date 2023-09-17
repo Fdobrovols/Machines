@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkMachines=self.webpackChunkMachines||[]).push([[680],{680:function(e,n,c){c.r(n),c.d(n,{HomePage:function(){return u}});var r=c(9930),s=c(184),u=function(){return(0,s.jsx)(r.Section,{children:(0,s.jsx)(r.Hero,{})})}}}]);
+//# sourceMappingURL=680.1ebcb83a.chunk.js.map
