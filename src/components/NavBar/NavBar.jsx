@@ -1,4 +1,4 @@
-// Styled components
+
 import { NavBarStyled, StyledNavLink } from './NavBar.styled';
 
 export const NavBar = () => {

@@ -1,8 +1,8 @@
-// Libs
+
 import { css } from '@emotion/react';
 import 'modern-normalize';
 import 'react-toastify/dist/ReactToastify.css';
-// Theme
+
 import { theme } from 'styles/theme';
 
 export const GlobalStyles = css`
@@ -68,7 +68,7 @@ export const GlobalStyles = css`
         color: inherit;
     }
 
-    // ============== scrollbar ==============
+    // ScrollBar
 
     body {
         &::-webkit-scrollbar {

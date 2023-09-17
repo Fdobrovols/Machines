@@ -1,6 +1,6 @@
-// Libs
+
 import styled from '@emotion/styled';
-// Theme
+
 import { theme } from 'styles';
 
 export const StyledForm = styled.form`
@@ -62,7 +62,7 @@ export const selectStyles = {
         backgroundColor: `${theme.colors.bgPrimary}`,
         border: `1px solid ${theme.colors.borderPrimary}`,
         borderRadius: '14px',
-        //  ============== scrollbar ==============
+        //  ScroolBar
         '&::-webkit-scrollbar': {
             width: '26px',
         },

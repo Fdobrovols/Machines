@@ -1,10 +1,10 @@
-// Libs
+
 import { Navigate, Route, Routes } from 'react-router-dom';
-// Layout
+
 import { Layout } from 'components';
-// Helpers
+
 import { lazyNamedModuleImport } from 'helpers';
-// Pages
+
 const HomePage = lazyNamedModuleImport('HomePage');
 const FavoritePage = lazyNamedModuleImport('FavoritePage');
 const RentalPage = lazyNamedModuleImport('RentalPage');

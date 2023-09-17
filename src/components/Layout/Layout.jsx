@@ -1,11 +1,11 @@
-// Libs
+
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import { BeatLoader } from 'react-spinners';
-// Components
+
 import { NavBar } from 'components';
-// Styled components
+
 import {
     Page,
     Header,

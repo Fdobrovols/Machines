@@ -1,6 +1,6 @@
-// Libs
+
 import styled from '@emotion/styled';
-// Theme
+
 import { theme } from 'styles';
 
 export const Page = styled.div`

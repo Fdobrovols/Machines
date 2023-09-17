@@ -1,13 +1,13 @@
-// Components
+
 import { PageTitle, RedirectionLink } from 'components';
-// Styled components
+
 import {
     HeroStyled,
     HeroTextWrapper,
     HeroText,
     HeroImageWrapper,
 } from './Hero.styled';
-// Static data
+
 import heroImage from 'img/hero.webp';
 
 export const Hero = () => {

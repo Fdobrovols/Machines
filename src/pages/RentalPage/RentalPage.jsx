@@ -1,10 +1,10 @@
-// Libs
+
 import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import { PulseLoader } from 'react-spinners';
-// Api
+
 import { getAdverts } from 'api';
-// Components
+
 import {
     Section,
     SearchBar,
@@ -14,22 +14,22 @@ import {
     NoResults,
     ErrorCard,
 } from 'components';
-// Hooks
+
 import { useFavorites } from 'hooks';
-// Helpers
+
 import { filterAdverts } from 'helpers';
-// Constants
+
 import {
     LIMIT,
     CANCELED_ERROR,
     ERROR_MESSAGE,
     APOLOGIZE_MESSAGE,
 } from 'constants';
-// Theme
+
 import { theme } from 'styles';
-// Other
+
 import { initialValues } from 'components/SearchBar/initialValues';
-// Constants
+
 import { END_OF_RESULTS_MESSAGE, NO_RESULTS_MESSAGE } from 'constants';
 
 export const RentalPage = () => {

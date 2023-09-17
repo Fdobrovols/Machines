@@ -1,7 +1,7 @@
-// Libs
+
 import { NavLink } from 'react-router-dom';
 import styled from '@emotion/styled';
-// Theme
+
 import { theme } from 'styles';
 
 export const NavBarStyled = styled.div`

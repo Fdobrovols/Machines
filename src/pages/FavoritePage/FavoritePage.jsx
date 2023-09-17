@@ -1,4 +1,4 @@
-// Components
+
 import {
     Section,
     PageTitle,
@@ -6,9 +6,9 @@ import {
     NoResults,
     RedirectionLink,
 } from 'components';
-// Hooks
+
 import { useFavorites } from 'hooks';
-// Constants
+
 import { EMPTY_FAVORITES_MESSAGE } from 'constants';
 
 export const FavoritePage = () => {

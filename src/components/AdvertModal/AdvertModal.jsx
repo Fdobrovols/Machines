@@ -1,8 +1,8 @@
-// Libs
+
 import PropTypes from 'prop-types';
-// Components
+
 import { ButtonPrimary } from 'components';
-// Styled components
+
 import {
     TitleBlockWrapper,
     Image,
@@ -17,9 +17,9 @@ import {
     RentalConditionsItem,
     AccentText,
 } from './AdvertModal.styled';
-// Helpers
+
 import { splitStringIntoNumberAndText } from 'helpers/splitStringIntoNumberAndText';
-// Static data
+
 import placeholder from 'img/placeholder.webp';
 
 export const AdvertModal = ({

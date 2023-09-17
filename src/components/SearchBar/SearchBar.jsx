@@ -1,11 +1,11 @@
-// Libs
+
 import { useState } from 'react';
 import { Controller, useForm } from 'react-hook-form';
 import PropTypes from 'prop-types';
 import Select from 'react-select';
-// Components
+
 import { ButtonPrimary, ButtonSecondary } from 'components';
-// Styled components
+
 import {
     StyledForm,
     Label,
@@ -20,12 +20,12 @@ import {
     ButtonsWrapper,
     ErrorValidationText,
 } from './SearchBar.styled';
-// Helpers
+
 import { transformSelectData } from 'helpers';
-// Other
+
 import { formSettings } from './formSettings';
 import { initialValues } from './initialValues';
-// Static data
+
 import carBrands from 'data/carBrands.json';
 const priceList = Array.from({ length: 48 }, (_, index) => {
     const value = (index + 6) * 5;
